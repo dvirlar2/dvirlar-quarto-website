@@ -11,8 +11,13 @@ website:
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: 
+      light: 
+        - yeti
+      dark: 
+        - yeti
+        - dark-theme.scss
+   # css: styles.css
     toc: true
 
 
