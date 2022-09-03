@@ -5,13 +5,22 @@ project:
 website:
   title: "DVK"
   navbar:
-  pinned: true
-  # pinned navbar keeps navbar at top of page
+    pinned: true
+    # pinned navbar keeps navbar at top of page
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-
+      - href: about.qmd
+        text: About
+      - href: docs/blog.qmd
+        text: Blog
+      - href: docs/development.qmd
+        text: Development
+      - href: docs/projects.qmd
+        text: Projects
+      - href: docs/resources.qmd
+        text: Resources
+        
 format:
   html:
     theme: 
