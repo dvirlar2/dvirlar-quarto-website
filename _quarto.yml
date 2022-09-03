@@ -1,9 +1,12 @@
 project:
   type: website
+  # output directory automatically set to "_site" folder
 
 website:
-  title: "dvirlar-quarto-website"
+  title: "DVK"
   navbar:
+  pinned: true
+  # pinned navbar keeps navbar at top of page
     left:
       - href: index.qmd
         text: Home
