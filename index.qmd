@@ -5,12 +5,15 @@ about:
   template: trestles
   image: images/profile.jpg
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/dvirlar2
     - icon: github
       text: GitHub
       href: https://github.com/dvirlar2
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/dvirlar2
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/dvirlar/
 
 format:
   html:
