@@ -1,6 +1,9 @@
 ---
+title: "Resources"
+format: html
 toc: false
 ---
+
 <center>
 <img src=https://octodex.github.com/images/constructocat2.jpg width="500" height="500">
 
