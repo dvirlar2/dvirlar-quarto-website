@@ -12,25 +12,44 @@ website:
         text: Home
       - href: about.qmd
         text: About
-      - href: docs/blog.qmd
-        text: Blog
       - href: docs/development.qmd
         text: Development
       - href: docs/projects.qmd
         text: Projects
+      - href: docs/blog.qmd
+        text: Quick Tips
       - href: docs/resources.qmd
         text: Resources
+    right: 
+      - icon: github
+        href: https://github.com/dvirlar2
+      - icon: twitter
+        href: https://twitter.com/dvirlar2
         
+  page-footer:
+    left: "<i>Copyright 2022, Daphne Virlar-Knight</i>"
+    right: 
+      - icon: github
+        href: https://github.com/dvirlar2
+      - icon: twitter
+        href: https://twitter.com/dvirlar2
+    center: "Site built with Quarto, GitHub, and a whole lot of trial and error"
+    background: $primary
+  
 format:
   html:
     theme: 
       light: 
         - yeti
+        - styles.scss
       dark: 
         - yeti
         - dark-theme.scss
    # css: styles.css
     toc: true
+    code-copy: true
+    code-overflow: wrap
+    highlight-style: github #mokokai
 
 
 
