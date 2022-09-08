@@ -2,7 +2,7 @@
 title: Daphne Virlar-Knight
 #subtitle: "<i>She/Her/Hers</i>"
 about:
-  id: hero-heading # by placing the template content within a hero-heading block,
+  # id: hero-heading # by placing the template content within a hero-heading block,
   # I can add separate info (like Julia's quote) directly above the template info
   # without messing up the format of either the quote or about info
   template: trestles
@@ -32,7 +32,6 @@ format:
 </center>
 --->
 
-:::{#hero-heading}
 ## Welcome! 
 
 Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending  time unicycling and playing with her pet iguana.
@@ -59,5 +58,3 @@ Environmental Planner | 2020 - 2021 <br>
 
 IT Help Desk Associate & Interim Resource Manager | 2018 <br>
 <i>National Center for Women & Information Technocology </i>
-
-:::
