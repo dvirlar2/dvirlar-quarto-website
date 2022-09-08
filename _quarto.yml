@@ -3,7 +3,7 @@ project:
   # output directory automatically set to "_site" folder
 
 website:
-  title: "DVK"
+  #title: "DVK"
   navbar:
     pinned: true
     # pinned navbar keeps navbar at top of page
