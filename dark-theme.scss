@@ -30,7 +30,7 @@ $orange:  #f0ad4e !default;
 $yellow:  #ffc107 !default;
 $green:   #5cb85c !default;
 $teal:    #20c997 !default;
-$cyan:    #5bc0de !default;
+$cyan:    #5bc0de !default; 
 
 $primary:       $blue !default;
 $secondary:     $gray-200 !default;
@@ -107,7 +107,8 @@ $nav-tabs-link-active-border-color: $gray-200 !default;
 
 // Navbar
 
-$navbar-dark-color:                 rgba($white, .75) !default;
+//$navbar-dark-color:                 rgba($white, .75) !default;
+$navbar-bg:                         $cyan  ;
 $navbar-dark-hover-color:           $white !default;
 
 // Pagination
@@ -173,3 +174,7 @@ $btn-close-hover-opacity:    1 !default;
 // Code
 
 $pre-color:                         inherit !default;
+$code-block-bg:                     $gray-200;
+
+// Footer
+$footer-bg:        $cyan !default;
