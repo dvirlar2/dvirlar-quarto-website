@@ -3,7 +3,7 @@ title: Daphne Virlar-Knight
 #subtitle: "<i>She/Her/Hers</i>"
 about:
   template: trestles
-  image: images/profile.jpg
+  image: profile.jpg
   links:
     - icon: github
       text: GitHub
@@ -23,21 +23,27 @@ format:
     # container flexibility
 ---
 
-<br>
+## Welcome! 
 
 Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending  time unicycling and playing with her pet iguana.
 
-## Education
 
-University of California, San Diego | San Diego, CA
-PhD in Mathematics | Sep 2011 - June 2015
+-------------------------------------------------------------------------------
 
-Macalester College | St. Paul MA
-B.A in Economics | Sep 2007 - June 2011
+## Education 
+Master of Environmental Science and Management, 2020 <br>
+University of California, Santa Barbara
+
+Bachelor of Arts in Ecology and Evolution Biology, 2017 <br>
+University of Colorado, Boulder
+
+------------------------------------------------------------------------------
 
 ## Experience 
 
-Wengo Analytics | Head Data Scientist | April 2018 - present
+2021 - Present: Projects Data Coordinator ([NCEAS](https://nceas.ucsb.edu))
 
-GeoScynce | Chief Analyst | Spet 2012 - April 2018
+2020 - 2021: Environmental Planner ([Rincon Consultants](https://www.rinconconsultants.com/))
+
+2019 - 2020: Graduate Research Assistant
 
