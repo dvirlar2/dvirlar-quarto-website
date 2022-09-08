@@ -18,14 +18,14 @@
     "href": "index.html#education",
     "title": "Daphne Virlar-Knight",
     "section": "Education",
-    "text": "Education\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sep 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sep 2007 - June 2011"
+    "text": "Education\nMaster of Environmental Science and Management, 2020  University of California, Santa Barbara\nBachelor of Arts in Ecology and Evolution Biology, 2017  University of Colorado, Boulder"
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
     "title": "Daphne Virlar-Knight",
     "section": "Experience",
-    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
+    "text": "Experience\n2021 - Present: Projects Data Coordinator (NCEAS)\n2020 - 2021: Environmental Planner (Rincon Consultants)\n2019 - 2020: Graduate Research Assistant"
   },
   {
     "objectID": "about.html#education",
@@ -65,9 +65,9 @@
   {
     "objectID": "docs/blog.html",
     "href": "docs/blog.html",
-    "title": "Tidbits",
+    "title": "Quick Tips",
     "section": "",
-    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+    "text": "The full list of available quick tips, hot tips, & tidbits (oh my) can be found below. Enjoy!\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nCreating a Basic For Loop\n\n\n\niteration\n\n\n\nLearn how to write a for loop when you’re dealing with numeric values.\n\n\n\nDaphne Virlar-Knight\n\n\nSep 6, 2022\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "docs/blog.html#running-code",
@@ -103,5 +103,12 @@
     "title": "Resources",
     "section": "Running Code",
     "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
+  },
+  {
+    "objectID": "docs/blog/basic-for-loop.html",
+    "href": "docs/blog/basic-for-loop.html",
+    "title": "Creating a Basic For Loop",
+    "section": "",
+    "text": "One of the key tenets of programming is the DRY principle: Don’t Repeat Yourself. Essentially, this boils down to not repeating your code ad nauseum to change only one or two things. This is particularly useful for computationally intensive workflows that would require changing tens or hundreds of items. That’s where the for loop comes into play.\nFirst, let’s look at the basic syntax of a for loop. When you write one, you’re telling the computer “run this piece of code (statement) some number of times (range_of_values) in this spot (value).”\n\n\n\n\n\n\nSyntax\n\n\n\n\nfor(value in range_of_values){\n  statement \n  print(statement) \n}\n\n\n\nAnd that’s it! Congratulations, now you know the syntax for a basic for loop! Now let’s see it in practice. Now let’s put it into practice.\n\n\n\n\n\n\nExample\n\n\n\nLet’s say Europe is experiencing a heat wave, but I’m not quite grasping the context of how bad it is because I’m not familiar with the Celsius temperature scale. I know the average temperatures are somewhere between 35-40°C, so I’ll write a quick function to convert the temperatures into Fahrenheit! But that spans over five numbers, and writing that function out five individual times goes against the DRY principle. This gives us the perfect excuse to write a for loop.\nThe equation for converting temperatures from Celsius to Fahrenheit is the following. \\[(deg C*1.8) + 32\\] Knowing that conversion formula, here’s how I’d write my for loop:\n\nfor(degC in 35:40){\n  # Write your statement. Make sure the output of the statement is assigned to an object,\n  # otherwise R will only remember the very last conversion value. \n  fahr <- (degC*1.8) + 32\n  \n  # Print the outputs\n  print(fahr)\n}\n\n[1] 95\n[1] 96.8\n[1] 98.6\n[1] 100.4\n[1] 102.2\n[1] 104\n\n\nYep, that’s pretty toasty!\n\n\nFor more help on for loops and other iterative processes, make sure to check out the R for Data Science book by Hadley Wickham and Garrett Grolemund!"
   }
 ]
