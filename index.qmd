@@ -2,6 +2,9 @@
 title: Daphne Virlar-Knight
 #subtitle: "<i>She/Her/Hers</i>"
 about:
+  id: hero-heading # by placing the template content within a hero-heading block,
+  # I can add separate info (like Julia's quote) directly above the template info
+  # without messing up the format of either the quote or about info
   template: trestles
   image: profile.jpg
   links:
@@ -22,7 +25,14 @@ format:
     # that, and stretches content to fill width of the page, while mainting 
     # container flexibility
 ---
+<!--- Maybe there's a better palce for this??
+<center>
+"Data science is the discipline of turning raw data into understanding" <br>
+<i> Julia Stewart Lowndes, PhD </i>
+</center>
+--->
 
+:::{#hero-heading}
 ## Welcome! 
 
 Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending  time unicycling and playing with her pet iguana.
@@ -41,9 +51,13 @@ University of Colorado, Boulder
 
 ## Experience 
 
-2021 - Present: Projects Data Coordinator ([NCEAS](https://nceas.ucsb.edu))
+Projects Data Coordinator | 2022 - Present <br>
+<i>Arctic Data Center </i>
 
-2020 - 2021: Environmental Planner ([Rincon Consultants](https://www.rinconconsultants.com/))
+Environmental Planner | 2020 - 2021 <br>
+<i>Rincon Consultants </i>
 
-2019 - 2020: Graduate Research Assistant
+IT Help Desk Associate & Interim Resource Manager | 2018 <br>
+<i>National Center for Women & Information Technocology </i>
 
+:::
