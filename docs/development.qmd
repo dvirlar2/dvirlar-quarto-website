@@ -5,7 +5,24 @@ toc: false
 ---
 
 <center>
-<img src=https://octodex.github.com/images/constructocat2.jpg width="500" height="500">
 
-### Oops! This page is under construction! 
+<img src="https://octodex.github.com/images/constructocat2.jpg" width="500" height="500"/>
+
+### Oops! This page is under construction!
+
 </center>
+
+### Currently Working On:
+
+-   Udemy's "[Python for Data Science and Machine Learning Bootcamp](https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/)" course
+
+-   Datacamp's
+
+### Extracurricular Courses & Workshops
+
+-   ESRI MOOC "[Spatial Data Science: The New Frontier in Analytics](https://www.esri.com/training/catalog/5d76dcf7e9ccda09bef61294/spatial-data-science%3A-the-new-frontier-in-analytics/?adumkts=training&aduc=landing_page&adum=organic_visits&utm_Source=landing_page&aduca=mi_moocs&aduco=trbanner&adut=sds-mooc&adulb=multiple&adusn=multiple&adupt=awareness&sf_id=701f2000000iFSXAA2)"
+-   Carpentries "Relational Databases and SQL" two day course ([materials](https://ucsbcarpentry.github.io/2022-02-04-ucsb-sql-online/))
+
+### Things I've Helped With:
+
+-   Helped Sam with her "Troubleshooting Quarto" workshop
