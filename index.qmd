@@ -2,9 +2,9 @@
 title: Daphne Virlar-Knight
 #subtitle: "<i>She/Her/Hers</i>"
 about:
-  # id: hero-heading # by placing the template content within a hero-heading block,
   # I can add separate info (like Julia's quote) directly above the template info
   # without messing up the format of either the quote or about info
+  # id: hero-heading # by placing the template content within a hero-heading block,
   template: trestles
   image: profile.jpg
   links:
@@ -17,41 +17,57 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/dvirlar/
-
 format:
   html:
-    page-layout: full
     # quarto automatically centers the trestles template this argument overrides
     # that, and stretches content to fill width of the page, while mainting 
     # container flexibility
+    page-layout: full
+editor: 
+  markdown: 
+    wrap: 72
 ---
+
+```{=html}
 <!--- Maybe there's a better palce for this??
 <center>
 "Data science is the discipline of turning raw data into understanding" <br>
 <i> Julia Stewart Lowndes, PhD </i>
 </center>
 --->
+```
+## Welcome!
 
-## Welcome! 
+I'm an early career data scientist working at the [Arctic Data
+Center](arcticdata.io), a data repository funded through the National
+Science Foundation, as a Projects Data Coordinator. Here, I help
+contribute to the open data science community by curating the metadata
+of submitted datasets. Generally, this is done by editing metadata
+documents using the [Ecological Metadata
+Language](https://eml.ecoinformatics.org/) (EML), which describes the
+*who, what, where, when, why, and how* of a dataset. By curating
+metadata, the Arctic Data Center helps ensure that data are findable,
+accessible, interoperable, and reusable by others. 
+<br>
+<br>
+In my spare time you can find me somewhere with my dog Moose, playing my 
+Nintendo Switch, or listening to my favorite podcasts!
 
-Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending  time unicycling and playing with her pet iguana.
+------------------------------------------------------------------------
 
+## Education
 
--------------------------------------------------------------------------------
+Master of Environmental Science and Management, 2020 <br> University of
+California, Santa Barbara
 
-## Education 
-Master of Environmental Science and Management, 2020 <br>
-University of California, Santa Barbara
+Bachelor of Arts in Ecology and Evolution Biology, 2017 <br> University
+of Colorado, Boulder
 
-Bachelor of Arts in Ecology and Evolution Biology, 2017 <br>
-University of Colorado, Boulder
+------------------------------------------------------------------------
 
-------------------------------------------------------------------------------
+## Experience
 
-## Experience 
+Projects Data Coordinator \| 2022 - Present <br> <i>Arctic Data Center
+</i>
 
-Projects Data Coordinator | 2022 - Present <br>
-<i>Arctic Data Center </i>
-
-Environmental Planner | 2020 - 2021 <br>
-<i>Rincon Consultants </i>
+Environmental Planner \| 2020 - 2021 <br> <i>Rincon Consultants </i>
