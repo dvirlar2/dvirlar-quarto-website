@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Daphne Virlar-Knight",
     "section": "",
-    "text": "Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana."
+    "text": "I’m an early career data scientist working at the Arctic Data Center, a data repository funded through the National Science Foundation, as a Projects Data Coordinator. Here, I help contribute to the open data science community by curating the metadata of submitted datasets. Generally, this is done by editing metadata documents using the Ecological Metadata Language (EML), which describes the who, what, where, when, why, and how of a dataset. By curating metadata, the Arctic Data Center helps ensure that data are findable, accessible, interoperable, and reusable by others.   In my spare time you can find me somewhere with my dog Moose, playing my Nintendo Switch, or listening to my favorite podcasts!"
   },
   {
     "objectID": "about.html",
@@ -25,7 +25,7 @@
     "href": "index.html#experience",
     "title": "Daphne Virlar-Knight",
     "section": "Experience",
-    "text": "Experience\nProjects Data Coordinator | 2022 - Present  Arctic Data Center \nEnvironmental Planner | 2020 - 2021  Rincon Consultants \nIT Help Desk Associate & Interim Resource Manager | 2018  National Center for Women & Information Technocology"
+    "text": "Experience\nProjects Data Coordinator | 2022 - Present  Arctic Data Center \nEnvironmental Planner | 2020 - 2021  Rincon Consultants"
   },
   {
     "objectID": "about.html#education",
@@ -67,7 +67,7 @@
     "href": "docs/blog.html",
     "title": "Quick Tips",
     "section": "",
-    "text": "The full list of available quick tips, hot tips, & tidbits (oh my) can be found below. Enjoy!\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nCreating a Basic For Loop\n\n\n\niteration\n\n\n\nLearn how to write a for loop when you’re dealing with numeric values.\n\n\n\nDaphne Virlar-Knight\n\n\nSep 6, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "The full list of available quick tips, hot tips, & tidbits (oh my) can be found below. Enjoy!\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nCreating a Basic For Loop\n\n\n\niteration\n\n\n\nLearn how to write a for loop when you’re dealing with numeric values.\n\n\n\nDaphne Virlar-Knight\n\n\nSep 28, 2022\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "docs/blog.html#running-code",
