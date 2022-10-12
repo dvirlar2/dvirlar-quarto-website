@@ -35,7 +35,7 @@ website:
         href: https://github.com/dvirlar2
       - icon: twitter
         href: https://twitter.com/dvirlar2
-    center: "Site built with Quarto, GitHub, and a whole lot of trial and error"
+    center: "/nSite built with Quarto, GitHub, and a whole lot of trial and error"
     background: $primary
   
 format:
