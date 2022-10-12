@@ -1,6 +1,8 @@
 project:
   type: website
+  output-dir: docs
   # output directory automatically set to "_site" folder
+  # changing output directory to docs so that gh-pages works
 
 website:
   #title: "DVK"
@@ -10,15 +12,15 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: docs/about.qmd
+      - href: about.qmd
         text: About
-      - href: docs/development.qmd
+      - href: development.qmd
         text: Development
-      - href: docs/projects.qmd
+      - href: projects.qmd
         text: Projects
-      - href: docs/blog.qmd
+      - href: blog.qmd
         text: Quick Tips
-      - href: docs/resources.qmd
+      - href: resources.qmd
         text: Resources
     right: 
       - icon: github
