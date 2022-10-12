@@ -14,14 +14,14 @@ website:
         text: Home
       - href: about.qmd
         text: About
-      - href: development.qmd
-        text: Development
+      #- href: development.qmd
+      #  text: Development
       - href: projects.qmd
         text: Projects
       - href: blog.qmd
         text: Quick Tips
-      - href: resources.qmd
-        text: Resources
+      #- href: resources.qmd
+      #  text: Resources
     right: 
       - icon: github
         href: https://github.com/dvirlar2

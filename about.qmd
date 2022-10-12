@@ -2,6 +2,7 @@
 toc: false
 ---
 
+<!---
 <center>
 
 <img src="https://octodex.github.com/images/constructocat2.jpg" width="500" height="500"/>
@@ -11,6 +12,12 @@ toc: false
 </center>
 
 ### My Data Science Journey
+--->
+
+<center>
+"Data science is the discipline of turning raw data into understanding" <br>
+<i> Julia Stewart Lowndes, PhD </i>
+</center>
 
 ### Podcast Favorites
 
