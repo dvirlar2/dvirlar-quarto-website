@@ -18,7 +18,7 @@ website:
       #  text: Development
       - href: projects.qmd
         text: Projects
-      - href: blog.qmd
+      - href: quick-tips.qmd
         text: Quick Tips
       #- href: resources.qmd
       #  text: Resources

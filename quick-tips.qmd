@@ -4,7 +4,7 @@ format: html
 toc: false
 
 listing:
-  contents: "blog/*.qmd"
+  contents: "quick-tips/*.qmd"
   type: grid
   categories: true
   sort-ui: [date, title]
