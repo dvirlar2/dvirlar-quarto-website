@@ -2,10 +2,16 @@
 title: "Projects"
 format: html
 toc: false
+
+page-layout: full
+
+listing:
+  contents: projects
+  categories: true
+  sort: "date desc"
+  type: default
+  # fields: [image, title, date]
 ---
 
-<center>
-<img src=https://octodex.github.com/images/constructocat2.jpg width="350" height="350">
-
-### Oops! This page is under construction! 
-</center>
+###### <i>A collection of portfolio projects and blog posts</i>
+---

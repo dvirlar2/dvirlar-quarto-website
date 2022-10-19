@@ -4,5 +4,17 @@
     "items": [
       "/blog/basic-for-loop.html"
     ]
+  },
+  {
+    "listing": "/quick-tips.html",
+    "items": [
+      "/quick-tips/basic-for-loop.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/masters-project/masters-project.html"
+    ]
   }
 ]

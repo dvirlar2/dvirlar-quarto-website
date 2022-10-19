@@ -47,5 +47,33 @@
     "title": "Quick Tips",
     "section": "",
     "text": "The full list of available quick tips, hot tips, & tidbits (oh my) can be found below. Enjoy!\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nCreating a Basic For Loop\n\n\n\niteration\n\n\n\nLearn how to write a for loop when you’re dealing with numeric values.\n\n\n\nDaphne Virlar-Knight\n\n\nOct 11, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Managing the Impacts of Environmental Education in Protected Areas\n\n\n\nmaster's project\n\n\n\nA semi-brief overview of my Master's Project detailing the impacts of environmental education in protected areas. Specifically, my project focused on the Dangermond Preserve in Central California, acquired by The Nature Conservancy in late 2017.\n\n\n\nOct 18, 2022\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "quick-tips.html",
+    "href": "quick-tips.html",
+    "title": "Quick Tips",
+    "section": "",
+    "text": "The full list of available quick tips, hot tips, & tidbits (oh my) can be found below. Enjoy!\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nCreating a Basic For Loop\n\n\n\niteration\n\n\n\nLearn how to write a for loop when you’re dealing with numeric values.\n\n\n\nDaphne Virlar-Knight\n\n\nOct 11, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "quick-tips/basic-for-loop.html",
+    "href": "quick-tips/basic-for-loop.html",
+    "title": "Creating a Basic For Loop",
+    "section": "",
+    "text": "One of the key tenets of programming is the DRY principle: Don’t Repeat Yourself. Essentially, this boils down to not repeating your code ad nauseum to change only one or two things. This is particularly useful for computationally intensive workflows that would require changing tens or hundreds of items. That’s where the for loop comes into play.\nFirst, let’s look at the basic syntax of a for loop. When you write one, you’re telling the computer “run this piece of code (statement) some number of times (range_of_values) in this spot (value).”\n\n\n\n\n\n\nSyntax\n\n\n\n\nfor(value in range_of_values){\n  statement \n  print(statement) \n}\n\n\n\nAnd that’s it! Congratulations, now you know the syntax for a basic for loop! Now let’s see it in practice. Now let’s put it into practice.\n\n\n\n\n\n\nExample\n\n\n\nLet’s say Europe is experiencing a heat wave, but I’m not quite grasping the context of how bad it is because I’m not familiar with the Celsius temperature scale. I know the average temperatures are somewhere between 35-40°C, so I’ll write a quick function to convert the temperatures into Fahrenheit! But that spans over five numbers, and writing that function out five individual times goes against the DRY principle. This gives us the perfect excuse to write a for loop.\nThe equation for converting temperatures from Celsius to Fahrenheit is the following. \\[(deg C*1.8) + 32\\] Knowing that conversion formula, here’s how I’d write my for loop:\n\nfor(degC in 35:40){\n  # Write your statement. Make sure the output of the statement is assigned to an object,\n  # otherwise R will only remember the very last conversion value. \n  fahr <- (degC*1.8) + 32\n  \n  # Print the outputs\n  print(fahr)\n}\n\n[1] 95\n[1] 96.8\n[1] 98.6\n[1] 100.4\n[1] 102.2\n[1] 104\n\n\nYep, that’s pretty toasty!\n\n\nFor more help on for loops and other iterative processes, make sure to check out the R for Data Science book by Hadley Wickham and Garrett Grolemund!"
+  },
+  {
+    "objectID": "projects/masters-project/masters-project.html",
+    "href": "projects/masters-project/masters-project.html",
+    "title": "Managing the Impacts of Environmental Education in Protected Areas",
+    "section": "",
+    "text": "Project Proposal\nI attended the Bren School at UC Santa Barbara between 2018-2020 to get my Master’s in Environmental Science and Management, commonly referred to as a “MESM” degree among us Brennies. Although I was getting my Master’s, I wasn’t in a traditional program that focus on indepent research and writing a thesis at the end of your degree. Instead, the Bren masters programs focus on a thesis-like Group Project (GP) that students propose, select, and work through.\nWhile at Bren I specialized in two core areas: Conservation Planning and Environmental Economics & Policy. At the time, I was hoping to one day work to bridge the gap between conservation and policy at the State or Federal level, and was excited when a classmate approached me to be a co-author on a GP proposal with her. The proposal focused on determining conservation metrics for a newly established nature preserve, and providing policy recommendations for the client regarding the location and frequency of potential environmental education programs.\nThat proposal was ultimately one of twelve proposals selected out of nearly 40 project ideas by the GP Selection Committee. The client for the GP ended up being The Nature Conservancy, and my group lovingly dubbed ourselves the “DangerNERDS”. DangerNERDS is a blending of the word Dangermond (for the Dangermond Preserve) and the acronym NERDS, which stands for Nature, Education, Research, and Data Science.\n\n\nMy Role Within the Team\nFrom the get-go, I was the Internal Project Manager for my team. I organized, coordinated, and led weekly team meetings that were not client facing; established the direction our p\n\n\nProject Deliverables\nUltimately, all Bren MESMs must produce a poster, brief, final report, and website for their GPs. If you’d like to view any of those, or the proposal for the project, please click any of the buttons below.\n\nBrief Final Report Poster Proposal\n\n\n\nWhat I Learned\nAlthough my career goals are different today, I wouldn’t be where I am without the training and guidance from my peers and mentors at Bren, as well as this project specifically. I grew as a leader and project manager during undergrad through planning on campus events at CU Boulder, and I’m grateful I could continue that growth as the Internal Project Manager of my GP. Being at the helm also further instilled a sense of confidence that I could not only lead my peers in areas I was comfortable with, but also through uncharted waters (for us at least)."
   }
 ]
