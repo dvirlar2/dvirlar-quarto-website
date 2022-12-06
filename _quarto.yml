@@ -1,25 +1,27 @@
 project:
   type: website
+  output-dir: docs
   # output directory automatically set to "_site" folder
+  # changing output directory to docs so that gh-pages works
 
 website:
   #title: "DVK"
   navbar:
-    pinned: true
+    # pinned: true
     # pinned navbar keeps navbar at top of page
     left:
       - href: index.qmd
         text: Home
-      - href: docs/about.qmd
+      - href: about.qmd
         text: About
-      - href: docs/development.qmd
-        text: Development
-      - href: docs/projects.qmd
+      #- href: development.qmd
+      #  text: Development
+      - href: projects.qmd
         text: Projects
-      - href: docs/blog.qmd
+      - href: quick-tips.qmd
         text: Quick Tips
-      - href: docs/resources.qmd
-        text: Resources
+      #- href: resources.qmd
+      #  text: Resources
     right: 
       - icon: github
         href: https://github.com/dvirlar2
@@ -33,7 +35,8 @@ website:
         href: https://github.com/dvirlar2
       - icon: twitter
         href: https://twitter.com/dvirlar2
-    center: "Site built with Quarto, GitHub, and a whole lot of trial and error"
+   # center: "Site built with Quarto, GitHub, and a whole lot of trial and error"
+   # can't figure out the vertical alignment.
     background: $primary
   
 format:
@@ -41,10 +44,10 @@ format:
     theme: 
       light: 
         - yeti
-        - styles.scss
+        - themes/styles.scss
       dark: 
         - yeti
-        - dark-theme.scss
+        - themes/dark-theme.scss
    # css: styles.css
     toc: true
     code-copy: true

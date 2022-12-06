@@ -1,0 +1,16 @@
+{
+  "hash": "58d2031e6e2b5a45a053faaaa5855ae2",
+  "result": {
+    "markdown": "---\ntitle: \"Graphing Colorado's Predicted Snowfall, 2020-2080.\"\n\ndescription: |\n  Using open climate data from University of Colorado Boulder, I created a time series plot of predicted snowfall during ski seasons between 2020-2080. The graph illustrates predicted snowfall for three separate climate ensembles.\n\ndate: last-modified\ndate-format: MMMM D, YYYY\n\ncategories: time series\n\nexecute:\n  freeze: auto  # re-render only when source changes\n---\n\n\nThis is an example of a time series graph I created using publicly accessible \ndata from the Community Earth System Model (CESM) at the University Corporation\nfor Atmospheric Research (UCAR). These graphs were created as part of a graduate-level\ncourse on Climate Change Impacts and Adaptation (Spring 2020), taught by (Prof. Samantha Stevenson)[https://bren.ucsb.edu/people/samantha-stevenson] \nat the (Bren School)[https://bren.ucsb.edu/].\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n```{.r .cell-code}\nwrap_plots(en_01_graph / en_02_graph / en_03_graph)\n```\n\n::: {.cell-output-display}\n![](cps-test_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "cps-test_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

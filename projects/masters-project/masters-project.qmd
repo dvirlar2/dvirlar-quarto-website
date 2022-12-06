@@ -1,0 +1,44 @@
+---
+title: "Managing the Impacts of Environmental Education in Protected Areas"
+
+description: | 
+  A semi-brief overview of my Master's Project detailing the impacts of environmental education in protected areas. Specifically, my project focused on the Dangermond Preserve in Central California, acquired by The Nature Conservancy in late 2017.
+
+date: last-modified
+date-format: MMMM D, YYYY
+
+image: dangermond-oak.jpeg
+
+categories: master's project
+
+execute:
+  freeze: auto  # re-render only when source changes
+---
+
+---
+
+# Project Introduction
+
+I attended the Bren School at UC Santa Barbara between 2018-2020 to get my Master's in Environmental Science and Management, commonly referred to as a "MESM" degree among us Brennies. Although I was getting my Master's, I wasn't in a traditional program that focus on indepent research and writing a thesis at the end of your degree. Instead, the Bren masters programs focus on a thesis-like Group Project (GP) that students propose, select, and work through.
+
+ While at Bren I specialized in two core areas: Conservation Planning and Environmental Economics & Policy. At the time, I was hoping to one day work to bridge the gap between conservation and policy at the State or Federal level, and was excited when a classmate approached me to be a co-author on a GP proposal with her. The proposal focused on determining conservation metrics for a newly established nature preserve, and providing policy recommendations for the client regarding the location and frequency of potential environmental education programs.
+
+ That proposal was ultimately one of twelve proposals selected out of nearly 40 project ideas by the GP Selection Committee. The client for the GP ended up being The Nature Conservancy, and my group lovingly dubbed ourselves the "DangerNERDS". DangerNERDS is a blending of the word Dangermond (for the Dangermond Preserve) and the acronym NERDS, which stands for <i>Nature, Education, Research, and Data Science.</i>
+
+# My Role Within the Team
+From the get-go, I was the Internal Project Manager for my team. I organized, coordinated, and led weekly team meetings that were not client facing; established the direction our p
+
+# Project Deliverables
+
+Ultimately, all Bren MESMs must produce a poster, brief, final report, and [website](https://dangernerds.wixsite.com/) for their GPs. If you'd like to view any of those, or the proposal for the project, please click any of the buttons below.
+
+<center>
+<a class="btn btn-primary" href="dangernerds-brief.pdf" target="_blank" role="button">Brief</a>
+<a class="btn btn-primary" href="dangernerds-final-report.pdf" target="_blank" role="button">Final Report</a>
+<a class="btn btn-primary" href="dangernerds-poster.pdf" target="_blank" role="button">Poster</a>
+<a class="btn btn-primary" href="dangernerds-proposal.pdf" target="_blank" role="button">Proposal</a>
+</center>
+
+# What I Learned
+
+Although my career goals are different today, I wouldn't be where I am without the training and guidance from my peers and mentors at Bren, as well as this project specifically. I grew as a leader and project manager during undergrad through planning on campus events at CU Boulder, and I'm grateful I could continue that growth as the Internal Project Manager of my GP. Being at the helm also further instilled a sense of confidence that I could not only lead my peers in areas I was comfortable with, but also through uncharted waters (for us at least). 

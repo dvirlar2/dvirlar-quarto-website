@@ -1,0 +1,17 @@
+---
+title: "Projects"
+format: html
+toc: false
+
+page-layout: full
+
+listing:
+  contents: projects
+  categories: true # this is where you set cloud, numbered, unnumbered
+  sort: "date desc"
+  type: default
+  # fields: [image, title, date]
+---
+
+###### <i>A collection of portfolio projects and blog posts</i>
+---

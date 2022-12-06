@@ -1,0 +1,81 @@
+/*-- scss:defaults --*/
+
+// Yeti 5.2.2
+// Bootswatch
+
+$theme: "yeti" !default;
+
+//
+// Color system
+//
+
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #eee !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ccc !default;
+$gray-500: #adb5bd !default;
+$gray-600: #888 !default;
+$gray-700: #495057 !default;
+$gray-800: #333 !default;
+$gray-900: #222 !default;
+$black:    #000 !default;
+
+$blue:    #008cba !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #f04124 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #e99002 !default;
+$green:   #43ac6a !default;
+$teal:    #20c997 !default;
+$cyan:    #5bc0de !default;
+
+$primary:       $blue !default;
+$secondary:     $gray-200 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-200 !default;
+$dark:          $gray-900 !default;
+
+
+// my edits
+
+
+// Code blocks
+$code-block-bg: #eee;
+
+// Page Background
+$body-bg: #fff; //0680B0 // E7FEF4;  //F3F7FC; // F3FAFC
+
+// navbar
+//$navbar-hl: #B03606;
+
+
+
+
+.navbar {
+    font-weight: 700;
+  }
+  
+  .bg-primary {
+    .dropdown-menu {
+      background-color: $primary;
+  
+      .dropdown-item,
+      .dropdown-item:focus {
+        color: $dark;
+      }
+  
+      .dropdown-item.active,
+      .dropdown-item:hover,
+      .dropdown-item:focus {
+        color: $white;
+        background-color: $yellow;
+      }
+    }
+  }
+  
