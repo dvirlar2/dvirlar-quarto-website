@@ -34,7 +34,7 @@ to include a legend.
 #| echo: false
 
 # load source script
-source(here::here("_data", "colorado-predicted-snowfall",'colorado-predicted-snowfall-script.R'))
+source(here::here("projects/colorado-predicted-snowfall/_data/colorado-predicted-snowfall-script.R"))
 ```
 
 
