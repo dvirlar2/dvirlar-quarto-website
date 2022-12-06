@@ -11,7 +11,8 @@ library(patchwork)
 ## -- read in data -- ##
 # Data was retrieved from: http://www.cesm.ucar.edu/projects/community-projects/LENS/data-sets.html
 
-data_paths <- list.files(here("_data"), full.names = TRUE, recursive = TRUE) 
+data_paths <- list.files(here("projects/colorado-predicted-snowfall/_data"), 
+                         full.names = TRUE, recursive = TRUE) 
 
 en_01 <- nc_open(data_paths[1])
 en_02 <- nc_open(data_paths[2])
