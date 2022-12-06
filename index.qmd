@@ -6,7 +6,7 @@ about:
   # without messing up the format of either the quote or about info
   # id: hero-heading # by placing the template content within a hero-heading block,
   template: trestles
-  image: profile.jpg
+  image: images/profile.jpg
   links:
     - icon: github
       text: GitHub
