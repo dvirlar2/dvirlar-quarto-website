@@ -7,7 +7,7 @@ project:
 website:
   #title: "DVK"
   navbar:
-    pinned: true
+    # pinned: true
     # pinned navbar keeps navbar at top of page
     left:
       - href: index.qmd
