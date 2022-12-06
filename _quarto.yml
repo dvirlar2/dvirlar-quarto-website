@@ -44,10 +44,10 @@ format:
     theme: 
       light: 
         - yeti
-        - styles.scss
+        - themes/styles.scss
       dark: 
         - yeti
-        - dark-theme.scss
+        - themes/dark-theme.scss
    # css: styles.css
     toc: true
     code-copy: true
