@@ -7,7 +7,7 @@ page-layout: full
 
 listing:
   contents: projects
-  categories: true
+  categories: true # this is where you set cloud, numbered, unnumbered
   sort: "date desc"
   type: default
   # fields: [image, title, date]
