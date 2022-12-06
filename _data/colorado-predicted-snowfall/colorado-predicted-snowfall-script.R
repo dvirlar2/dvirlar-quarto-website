@@ -133,7 +133,8 @@ snow_season_03_summary <- snow_season_03 %>%
 
 
 ## -- create ensemble time-series graphs -- ##
-# Graph the time series of total predicted snowfall per ski season from 2020-2080, for each climate ensemble. Also, add in the predicted average high and low snowfall of 212.51 in/month and 133.21 in/month respectively
+# Graph the time series of total predicted snowfall per ski season from 2020-2080, for each climate ensemble. 
+# Also, add in the predicted average high and low snowfall of 212.51 in/month and 133.21 in/month respectively
 en_01_graph <- ggplot(snow_season_01_summary, aes(x = season_year, y = total_snow)) +
   geom_line(color="goldenrod") +
   geom_hline(yintercept = 212, color="#C70000", linetype="dashed")  +
