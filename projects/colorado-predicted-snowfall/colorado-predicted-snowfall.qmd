@@ -2,12 +2,14 @@
 title: "Graphing Colorado's Predicted Snowfall, 2020-2080."
 
 description: |
-  Using open climate data from University of Colorado Boulder, I created a time series plot of predicted snowfall during ski seasons between 2020-2080. The graph illustrates predicted snowfall for three separate climate ensembles.
+  Using open climate data from the University of Colorado Boulder, I created a time series plot of predicted snowfall during ski seasons between 2020-2080. The graphs illustrate predicted snowfall for three separate climate ensembles.
 
 date: last-modified
 date-format: MMMM D, YYYY
 
-categories: time series
+image: spongebob-snowfall.gif
+
+categories: [time series, R]
 
 execute:
   freeze: auto  # re-render only when source changes
@@ -15,10 +17,15 @@ execute:
 
 ------------------------------------------------------------------------
 
-This is an example of a time series graph I created using publicly accessible 
+The following time series graphs are examples I created using publicly accessible 
 data from the Community Earth System Model (CESM) at the University Corporation
 for Atmospheric Research (UCAR). These graphs were created as part of a graduate-level
-course on Climate Change Impacts and Adaptation (Spring 2020), taught by [Prof. Samantha Stevenson](https://bren.ucsb.edu/people/samantha-stevenson).
+course assignment on Climate Change Impacts and Adaptation (Spring 2020), taught by [Prof. Samantha Stevenson](https://bren.ucsb.edu/people/samantha-stevenson).
+
+
+The source code for the graphs can be found [here](https://github.com/dvirlar2/dvirlar2.github.io/blob/gh-pages-dev/_data/colorado-predicted-snowfall/colorado-predicted-snowfall-script.R). For context, the graph within the ''All Ensembles' tabset
+is the original assignment submission. The graphs within the remaining tabsets have been updated
+to include a legend.
 
 
 
@@ -30,11 +37,85 @@ course on Climate Change Impacts and Adaptation (Spring 2020), taught by [Prof. 
 source(here::here("_data", "colorado-predicted-snowfall",'colorado-predicted-snowfall-script.R'))
 ```
 
+
+::: {.panel-tabset}
+
+## All Ensembles
 ```{r}
 #| echo: false
-
 wrap_plots(en_01_graph / en_02_graph / en_03_graph)
 ```
 
 
+## Ensemble 1
+```{r}
+#| echo: false
 
+# Had to edit the original code a little to add a legend
+
+ggplot(snow_season_01_summary, aes(x = season_year, y = total_snow)) +
+  geom_line(aes(color="Total Snowfall")) +
+  geom_hline(yintercept = 212, color="#C70000", linetype="dashed")  +
+  geom_hline(yintercept = 133, color="#009BB0", linetype="dashed") +
+  scale_y_continuous(limits=c(0,300), expand=c(0,0)) +
+  xlab("Year \n") + 
+  ylab("Total Snow \n(in)") +
+  scale_color_manual(name = "Legend",
+                     values = c("Average High" = "#C70000",
+                                "Total Snowfall" = "goldenrod",
+                                "Average Low" = "#009BB0")) +
+  ggtitle("\nPredicted Snowfall per Season (2020-2080) Under RCP 8.5 Ensemble 1\n") +
+  theme_classic() +
+  theme(plot.title = element_text(hjust = 0.5))+
+  theme(text=element_text(family="Times New Roman"))+
+  theme(plot.margin = unit(c(1,1,2,1), "points"))
+```
+
+
+## Ensemble 2
+```{r}
+#| echo: false
+
+ggplot(snow_season_02_summary, aes(x = season_year, y = total_snow)) +
+  geom_line(aes(color="Total Snowfall")) + 
+  geom_hline(yintercept = 212, color="#C70000", linetype="dashed")  +
+  geom_hline(yintercept = 133, color="#009BB0", linetype="dashed") +
+  scale_y_continuous(limits=c(0,300), expand=c(0,0)) +
+  xlab("Year \n") + 
+  ylab("Total Snow \n(in)") +
+  scale_color_manual(name = "Legend",
+                     values = c("Average High" = "#C70000",
+                                "Total Snowfall" = "goldenrod",
+                                "Average Low" = "#009BB0")) +
+  ggtitle("\nPredicted Snowfall per Season (2020-2080) Under RCP 8.5 Ensemble 2\n") +
+  theme_classic() +
+  theme(plot.title = element_text(hjust = 0.5))+
+  theme(text=element_text(family="Times New Roman"))+
+  theme(plot.margin = unit(c(1,1,2,1), "points"))
+```
+
+
+
+## Ensemble 3
+```{r}
+#| echo: false
+
+ggplot(snow_season_03_summary, aes(x = season_year, y = total_snow)) +
+  geom_line(aes(color="Total Snowfall")) +
+  geom_hline(yintercept = 212, color="#C70000", linetype="dashed")  +
+  geom_hline(yintercept = 133, color="#009BB0", linetype="dashed") +
+  scale_y_continuous(limits=c(0,300), expand=c(0,0)) +
+  xlab("Year \n") + 
+  ylab("Total Snow \n(in)") +
+  scale_color_manual(name = "Legend",
+                     values = c("Average High" = "#C70000",
+                                "Total Snowfall" = "goldenrod",
+                                "Average Low" = "#009BB0")) +
+  ggtitle("\nPredicted Snowfall per Season (2020-2080) Under RCP 8.5 Ensemble 3\n") +
+  theme_classic() +
+  theme(plot.title = element_text(hjust = 0.5))+
+  theme(text=element_text(family="Times New Roman"))
+```
+
+
+:::
