@@ -14,7 +14,16 @@
   {
     "listing": "/projects.html",
     "items": [
+      "/projects/colorado-predicted-snowfall/colorado-predicted-snowfall.html",
       "/projects/masters-project/masters-project.html"
     ]
+  },
+  {
+    "listing": "/projects/projects.html",
+    "items": []
+  },
+  {
+    "listing": "/quick-tips/quick-tips.html",
+    "items": []
   }
 ]

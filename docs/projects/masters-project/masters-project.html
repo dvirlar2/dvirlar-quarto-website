@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.251">
+<meta name="generator" content="quarto-1.2.269">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -26,6 +26,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
@@ -77,28 +78,32 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html">Home</a>
+    <a class="nav-link" href="../../index.html">
+ <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html">About</a>
+    <a class="nav-link" href="../../about.html">
+ <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../projects.html">Projects</a>
+    <a class="nav-link" href="../../projects.html">
+ <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../quick-tips.html">Quick Tips</a>
+    <a class="nav-link" href="../../quick-tips.html">
+ <span class="menu-text">Quick Tips</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/dvirlar2"><i class="bi bi-github" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/dvirlar2"><i class="bi bi-twitter" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
 </ul>
               <div class="quarto-toggle-container">
@@ -118,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#project-proposal" id="toc-project-proposal" class="nav-link active" data-scroll-target="#project-proposal">Project Proposal</a></li>
+  <li><a href="#project-introduction" id="toc-project-introduction" class="nav-link active" data-scroll-target="#project-introduction">Project Introduction</a></li>
   <li><a href="#my-role-within-the-team" id="toc-my-role-within-the-team" class="nav-link" data-scroll-target="#my-role-within-the-team">My Role Within the Team</a></li>
   <li><a href="#project-deliverables" id="toc-project-deliverables" class="nav-link" data-scroll-target="#project-deliverables">Project Deliverables</a></li>
   <li><a href="#what-i-learned" id="toc-what-i-learned" class="nav-link" data-scroll-target="#what-i-learned">What I Learned</a></li>
@@ -152,6 +157,7 @@ ul.task-list li input[type="checkbox"] {
       <p class="date">October 18, 2022</p>
     </div>
   </div>
+  
     
   </div>
   
@@ -159,11 +165,11 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <hr>
-<section id="project-proposal" class="level1">
-<h1>Project Proposal</h1>
+<section id="project-introduction" class="level1">
+<h1>Project Introduction</h1>
 <p>I attended the Bren School at UC Santa Barbara between 2018-2020 to get my Master’s in Environmental Science and Management, commonly referred to as a “MESM” degree among us Brennies. Although I was getting my Master’s, I wasn’t in a traditional program that focus on indepent research and writing a thesis at the end of your degree. Instead, the Bren masters programs focus on a thesis-like Group Project (GP) that students propose, select, and work through.</p>
 <p>While at Bren I specialized in two core areas: Conservation Planning and Environmental Economics &amp; Policy. At the time, I was hoping to one day work to bridge the gap between conservation and policy at the State or Federal level, and was excited when a classmate approached me to be a co-author on a GP proposal with her. The proposal focused on determining conservation metrics for a newly established nature preserve, and providing policy recommendations for the client regarding the location and frequency of potential environmental education programs.</p>
-<p>That <a href="dangernerds-proposal.pdf" target="_blank">proposal</a> was ultimately one of twelve proposals selected out of nearly 40 project ideas by the GP Selection Committee. The client for the GP ended up being The Nature Conservancy, and my group lovingly dubbed ourselves the “DangerNERDS”. DangerNERDS is a blending of the word Dangermond (for the Dangermond Preserve) and the acronym NERDS, which stands for <i>Nature, Education, Research, and Data Science.</i></p>
+<p>That proposal was ultimately one of twelve proposals selected out of nearly 40 project ideas by the GP Selection Committee. The client for the GP ended up being The Nature Conservancy, and my group lovingly dubbed ourselves the “DangerNERDS”. DangerNERDS is a blending of the word Dangermond (for the Dangermond Preserve) and the acronym NERDS, which stands for <i>Nature, Education, Research, and Data Science.</i></p>
 </section>
 <section id="my-role-within-the-team" class="level1">
 <h1>My Role Within the Team</h1>
@@ -316,7 +322,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   // Switch to dark mode if need be
   if (hasAlternateSentinel()) {
     toggleColorMode(true);
-  } 
+  } else {
+    toggleColorMode(false);
+  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -338,7 +346,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -374,24 +399,42 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
