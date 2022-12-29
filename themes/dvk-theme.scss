@@ -1,0 +1,58 @@
+/*-- scss:defaults --*/
+
+// fonts
+// Roboto Slab; Roboto
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Roboto:wght@500&display=swap');
+
+// Main Color Choices: 
+$outer-space:     #394648;
+//$paradise-pink:   #E83F6F;
+//$max-yellow:      #FBB84B;
+$cultured:        #F7F6F3;
+$pacific-blue:    #01A7C2;
+
+
+
+// Base document colors
+$navbar-bg:     $pacific-blue; // navbar
+$navbar-fg:     $cultured; // navbar foreground elements
+$navbar-hl:     $outer-space; // highlight color when hovering over navbar links
+$body-bg:       $cultured; // page background 
+$body-color:    $outer-space; // page text 
+$footer-bg:     $pacific-blue; // footer background color
+$footer-fg:     $cultured; // footer foreground elements
+$link-color:    $pacific-blue; // hyperlinks 
+
+
+
+// Navbar
+$font-size-base:   1rem !default; // Assumes the browser default, typically `16px`
+
+.navbar a { // navbar font
+  font-family: "Roboto" !important;
+}
+
+
+// Navbar line animation
+/*
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  opacity: 0;
+  transition: all 0.2s;
+  height: 2px;
+  width: 0%;
+  margin: auto;
+  background-color: $outer-space;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.nav-link:hover::after {
+  content: '';
+  opacity: 1;
+} */

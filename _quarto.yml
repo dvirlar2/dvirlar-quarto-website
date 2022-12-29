@@ -44,10 +44,11 @@ format:
     theme: 
       light: 
         - yeti
-        - themes/styles.scss
-      dark: 
-        - yeti
-        - themes/dark-theme.scss
+        - themes/dvk-theme.scss
+      # dark: 
+      #   - yeti
+      #   - themes/dark-theme.scss
+    # mainfont: "Roboto Slab"
    # css: styles.css
     toc: true
     code-copy: true
