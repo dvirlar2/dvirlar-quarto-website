@@ -1,12 +1,14 @@
 ---
 title: Daphne Virlar-Knight
-#subtitle: "<i>She/Her/Hers</i>"
+subtitle: "<i>she/her/hers</i>"
 about:
   # I can add separate info (like Julia's quote) directly above the template info
   # without messing up the format of either the quote or about info
   # id: hero-heading # by placing the template content within a hero-heading block,
   template: trestles
   image: images/profile.jpg
+  image-shape: rounded
+  image-width: 15em
   links:
     - icon: github
       text: GitHub
@@ -51,8 +53,10 @@ accessible, interoperable, and reusable by others.
 <br>
 <br>
 In my spare time you can find me somewhere with my dog Moose, playing my 
-Nintendo Switch, or listening to my favorite podcasts!
+Nintendo Switch, or listening to my favorite podcasts! You can find out more 
+about me [here](about.qmd).
 
+<!---
 ------------------------------------------------------------------------
 
 ## Education
@@ -71,3 +75,4 @@ Projects Data Coordinator \| 2022 - Present <br> <i>Arctic Data Center
 </i>
 
 Environmental Planner \| 2020 - 2021 <br> <i>Rincon Consultants </i>
+--->
