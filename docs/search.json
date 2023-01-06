@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Daphne Virlar-Knight",
     "section": "",
-    "text": "I’m an early career data scientist working at the Arctic Data Center, a data repository funded through the National Science Foundation, as the lead Projects Data Coordinator. Here, I help contribute to the open data science community by curating the metadata of submitted datasets. Generally, this is done by editing metadata documents using the Ecological Metadata Language (EML), which describes the who, what, where, when, why, and how of a dataset. By curating metadata, the Arctic Data Center helps ensure that data are findable, accessible, interoperable, and reusable by others.   In my spare time you can find me somewhere with my dog Moose, playing my Nintendo Switch, or listening to my favorite podcasts!"
+    "text": "I’m an early career data scientist working at the Arctic Data Center, a data repository funded through the National Science Foundation, as the lead Projects Data Coordinator. Here, I help contribute to the open data science community by curating the metadata of submitted datasets. Generally, this is done by editing metadata documents using the Ecological Metadata Language (EML), which describes the who, what, where, when, why, and how of a dataset. By curating metadata, the Arctic Data Center helps ensure that data are findable, accessible, interoperable, and reusable by others.   In my spare time you can find me somewhere with my dog Moose, playing my Nintendo Switch, or listening to my favorite podcasts! You can find out more about me here."
   },
   {
     "objectID": "index.html#education",
@@ -60,7 +60,7 @@
     "href": "quick-tips.html",
     "title": "Quick Tips",
     "section": "",
-    "text": "This is a collection of quick-ish reads that I’ve put together. It’s my hope that these explain difficult or confusing topics in an easily digestible format. If you have an idea for something you’d like to see covered, please feel free to create an issue!\nThe full list of available quick tips, hot tips, & tidbits (oh my) can be found below. Enjoy!\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nCreating a Basic For Loop\n\n\n\niteration\n\n\n\nLearn how to write a for loop when you’re dealing with numeric values.\n\n\n\nDaphne Virlar-Knight\n\n\nOct 11, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "This is a collection of quick-ish reads that I’ve put together. It’s my hope that these explain difficult or confusing topics in an easily digestible format. If you have an idea for something you’d like to see covered, please feel free to create an issue!\nThe full list of available quick tips, hot tips, & tidbits (oh my) can be found below. Enjoy!\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nCreating a Basic For Loop\n\n\n\niteration\n\n\n\nLearn how to write a for loop when you’re dealing with numeric values.\n\n\n\nDaphne Virlar-Knight\n\n\nDec 6, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWebsites That Have Inspired Me\n\n\n\nfun\n\n\n\nA collection of websites that have provided endless inspiration for how to design my own site.\n\n\n\nDaphne Virlar-Knight\n\n\nJan 5, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "quick-tips/basic-for-loop.html",
@@ -103,5 +103,12 @@
     "title": "Quick Tips",
     "section": "",
     "text": "This is a collection of quick-ish reads that I’ve put together. It’s my hope that these explain difficult or confusing topics in an easily digestible format. If you have an idea for something you’d like to see covered, please feel free to create an issue!\nThe full list of available quick tips, hot tips, & tidbits (oh my) can be found below. Enjoy!\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "quick-tips/websites-that-inspire-me.html",
+    "href": "quick-tips/websites-that-inspire-me.html",
+    "title": "Websites That Have Inspired Me",
+    "section": "",
+    "text": "During the various iterations of this website, I’ve looked to a few specific websites for inspiration. Some of these individuals I’m lucky enough to know personally, and others I’m lucky enough to have stumbled upon!\n\n\n\n\n\nIllustrations by Alison Hill and Allison Horst, for RStudio.\n\n\n\nSam Csik\nAllison Horst\nElla Kaye\nCarl Goodwin (AKA Quantum Jitter)\nIsabella Benabaye\nLiz Roten"
   }
 ]
