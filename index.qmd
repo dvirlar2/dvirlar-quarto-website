@@ -1,6 +1,6 @@
 ---
 title: Daphne Virlar-Knight
-#subtitle: "<i>She/Her/Hers</i>"
+subtitle: "<i>she/her/hers</i>"
 about:
   # I can add separate info (like Julia's quote) directly above the template info
   # without messing up the format of either the quote or about info
@@ -8,7 +8,7 @@ about:
   template: trestles
   image: images/profile.jpg
   image-shape: rounded
-  image-width: 17em
+  image-width: 15em
   links:
     - icon: github
       text: GitHub

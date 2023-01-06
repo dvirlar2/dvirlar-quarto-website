@@ -1,0 +1,29 @@
+---
+title: "Websites That Have Inspired Me"
+author: 
+  - name: "Daphne Virlar-Knight"
+    orcid: "0000-0003-3708-6154"
+    affiliation: "National Center for Ecological Analysis and Synthesis"
+
+description: |
+  A collection of websites that have provided endless inspiration for how to design my own site.
+  
+date: last-modified
+date-format: MMMM D, YYYY
+
+# image: ../images/basic-for-loop.png
+
+categories: fun
+
+# execute:
+#   freeze: auto  # re-render only when source changes
+---
+
+During the various iterations of this website, I've looked to a few specific websites for inspiration. Some of these individuals I'm lucky enough to know personally, and others I'm lucky enough to have stumbled upon!
+
+-   [Sam Csik](https://samanthacsik.github.io/)
+-   [Allison Horst](https://allisonhorst.github.io/)
+-   [Ella Kaye](https://ellakaye.co.uk/)
+-   [Carl Goodwin](https://www.quantumjitter.com/) (AKA Quantum Jitter)
+-   [Isabella Benabaye](https://isabella-b.com/)
+-   [Liz Roten](https://www.lizroten.com/)
