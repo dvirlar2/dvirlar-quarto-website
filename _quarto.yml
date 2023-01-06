@@ -28,16 +28,16 @@ website:
       - icon: twitter
         href: https://twitter.com/dvirlar2
         
-  page-footer:
-    left: "<i>Copyright 2022, Daphne Virlar-Knight</i>"
-    right: 
-      - icon: github
-        href: https://github.com/dvirlar2
-      - icon: twitter
-        href: https://twitter.com/dvirlar2
-   # center: "Site built with Quarto, GitHub, and a whole lot of trial and error"
-   # can't figure out the vertical alignment.
-    background: $primary
+  # page-footer:
+  #   left: "<i>Copyright 2022, Daphne Virlar-Knight</i>"
+  #   right: 
+  #     - icon: github
+  #       href: https://github.com/dvirlar2
+  #     - icon: twitter
+  #       href: https://twitter.com/dvirlar2
+  #  # center: "Site built with Quarto, GitHub, and a whole lot of trial and error"
+  #  # can't figure out the vertical alignment.
+  #   background: $primary
   
 format:
   html:
