@@ -8,7 +8,7 @@ about:
   template: trestles
   image: images/profile.jpg
   image-shape: rounded
-  image-width: 15em
+  image-width: 17em
   links:
     - icon: github
       text: GitHub
