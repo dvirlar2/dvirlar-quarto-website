@@ -53,8 +53,8 @@ accessible, interoperable, and reusable by others.
 <br>
 <br>
 In my spare time you can find me somewhere with my dog Moose, playing my 
-Nintendo Switch, or listening to my favorite podcasts! You can find out more 
-about me [here](about.qmd).
+Nintendo Switch, or listening to my favorite podcasts! <!---You can find out more 
+about me [here](about.qmd). --->
 
 <!---
 ------------------------------------------------------------------------

@@ -26,11 +26,11 @@ I attended the Bren School at UC Santa Barbara between 2018-2020 to get my Maste
  That proposal was ultimately one of twelve proposals selected out of nearly 40 project ideas by the GP Selection Committee. The client for the GP ended up being The Nature Conservancy, and my group lovingly dubbed ourselves the "DangerNERDS". DangerNERDS is a blending of the word Dangermond (for the Dangermond Preserve) and the acronym NERDS, which stands for <i>Nature, Education, Research, and Data Science.</i>
 
 # My Role Within the Team
-From the get-go, I was the Internal Project Manager for my team. I organized, coordinated, and led weekly team meetings that were not client facing; established the direction our p
+From the get-go, I was the Internal Project Manager for my team. I organized, coordinated, and led weekly team meetings that were not client facing. Additionally, I established the direction our project would take for data collection and analysis. This included setting the stage for using a Multi-Criteria Analysis method to determine the potential ecological impact of each trail based upon different taxa. We ultimately chose a variety of indicator species across four groups: mammals, amphibians, raptors, and vegetation. Lastly, with the help of my co-project manager, I proofread all of our materials multiple times — including our 100+ page final report!
 
 # Project Deliverables
 
-Ultimately, all Bren MESMs must produce a poster, brief, final report, and [website](https://dangernerds.wixsite.com/) for their GPs. If you'd like to view any of those, or the proposal for the project, please click any of the buttons below.
+Ultimately, all Bren MESMs must produce a poster, brief, final report, and [website](https://dangernerds.wixsite.com/mysite) for their GPs. If you'd like to view any of those, or the proposal for the project, please click any of the buttons below.
 
 <center>
 <a class="btn btn-primary" href="dangernerds-brief.pdf" target="_blank" role="button">Brief</a>
