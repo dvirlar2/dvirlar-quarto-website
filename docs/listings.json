@@ -1,11 +1,5 @@
 [
   {
-    "listing": "/blog.html",
-    "items": [
-      "/blog/basic-for-loop.html"
-    ]
-  },
-  {
     "listing": "/quick-tips.html",
     "items": [
       "/quick-tips/basic-for-loop.html",
@@ -15,16 +9,8 @@
   {
     "listing": "/projects.html",
     "items": [
-      "/projects/colorado-predicted-snowfall/colorado-predicted-snowfall.html",
-      "/projects/masters-project/masters-project.html"
+      "/projects/masters-project/masters-project.html",
+      "/projects/colorado-predicted-snowfall/colorado-predicted-snowfall.html"
     ]
-  },
-  {
-    "listing": "/projects/projects.html",
-    "items": []
-  },
-  {
-    "listing": "/quick-tips/quick-tips.html",
-    "items": []
   }
 ]
