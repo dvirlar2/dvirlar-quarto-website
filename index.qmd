@@ -30,14 +30,6 @@ editor:
     wrap: 72
 ---
 
-```{=html}
-<!--- Maybe there's a better palce for this??
-<center>
-"Data science is the discipline of turning raw data into understanding" <br>
-<i> Julia Stewart Lowndes, PhD </i>
-</center>
---->
-```
 ## Welcome!
 
 I'm an early career data scientist working at the [Arctic Data
