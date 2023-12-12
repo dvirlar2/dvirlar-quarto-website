@@ -49,8 +49,9 @@ format:
       #   - yeti
       #   - themes/dark-theme.scss
     # mainfont: "Roboto Slab"
+    #mainfont: "Roboto"
    # css: styles.css
-    toc: true
+   # toc: true
     code-copy: true
     code-overflow: wrap
     highlight-style: github #mokokai
