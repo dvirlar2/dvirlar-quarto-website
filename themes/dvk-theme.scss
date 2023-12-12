@@ -1,8 +1,19 @@
 /*-- scss:defaults --*/
+// $headings-font-weight:  100 !default;
+
 
 // fonts
 // Roboto Slab; Roboto
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Roboto:wght@500&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+// Montserrat for extra flavor, Roboto & Roboto Mono for mains, Sanchez for serifs
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Roboto+Mono&family=Roboto:wght@200;500&family=Sanchez&display=swap');
+
+// Fonts (CSS rules)
+/*
+$font-family-serif: 'Sanchez', serif; 
+$font-family-sans-serif: 'Roboto', sans-serif;
+$font-family-monospace: 'Roboto Mono', monospace; */
 
 // Main Color Choices: 
 $outer-space:     #394648;
@@ -30,29 +41,22 @@ $font-size-base:   1rem !default; // Assumes the browser default, typically `16p
 
 .navbar a { // navbar font
   font-family: "Roboto" !important;
+  font-weight: 500;
 }
 
 
-// Navbar line animation
+/*-- scss:rules --*/
+
+/* ELEMENT SELECTORS */
+
+
+h1, h2, h3 {
+  font-weight: 300;
+} 
+
 /*
-.nav-link {
-  position: relative;
+body {
+  font-family: "Roboto";
+  font-weight: 300;
 }
-
-.nav-link::after {
-  opacity: 0;
-  transition: all 0.2s;
-  height: 2px;
-  width: 0%;
-  margin: auto;
-  background-color: $outer-space;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
-.nav-link:hover::after {
-  content: '';
-  opacity: 1;
-} */
+*/
