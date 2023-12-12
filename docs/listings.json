@@ -1,16 +1,17 @@
 [
   {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/population-density-map/population-density-map.html",
+      "/projects/colorado-predicted-snowfall/colorado-predicted-snowfall.html",
+      "/projects/masters-project/masters-project.html"
+    ]
+  },
+  {
     "listing": "/quick-tips.html",
     "items": [
       "/quick-tips/basic-for-loop.html",
       "/quick-tips/websites-that-inspire-me.html"
-    ]
-  },
-  {
-    "listing": "/projects.html",
-    "items": [
-      "/projects/masters-project/masters-project.html",
-      "/projects/colorado-predicted-snowfall/colorado-predicted-snowfall.html"
     ]
   }
 ]

@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2023-12-11">
+<meta name="description" content="Using open census data from the United States and Canadian governments, I created a population density map looking at number of people per square-kilometer in each county. For Canada, I used county equivalents (“census districts”) for the province of British Columbia.">
 
-<title>Development</title>
+<title>Mapping Population Density Across Western North America.</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,15 +78,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
+    <a class="nav-link" href="../../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html" rel="" target="">
+    <a class="nav-link" href="../../projects.html" rel="" target="">
  <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./quick-tips.html" rel="" target="">
+    <a class="nav-link" href="../../quick-tips.html" rel="" target="">
  <span class="menu-text">Quick Tips</span></a>
   </li>  
 </ul>
@@ -116,14 +118,29 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Development</h1>
-</div>
+<h1 class="title">Mapping Population Density Across Western North America.</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">spatial analysis</div>
+    <div class="quarto-category">R</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    <p>Using open census data from the United States and Canadian governments, I created a population density map looking at number of people per square-kilometer in each county. For Canada, I used county equivalents (“census districts”) for the province of British Columbia.</p>
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 11, 2023</p>
+    </div>
+  </div>
   
     
   </div>
@@ -131,34 +148,12 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<center>
-<p><img src="https://octodex.github.com/images/constructocat2.jpg" width="500" height="500"></p>
-<section id="oops-this-page-is-under-construction" class="level3">
-<h3 class="anchored" data-anchor-id="oops-this-page-is-under-construction">Oops! This page is under construction!</h3>
-</section></center>
-
-<section id="currently-working-on" class="level3">
-<h3 class="anchored" data-anchor-id="currently-working-on">Currently Working On:</h3>
-<ul>
-<li><p>Udemy’s “<a href="https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/">Python for Data Science and Machine Learning Bootcamp</a>” course</p></li>
-<li><p>Datacamp’s</p></li>
-</ul>
-</section>
-<section id="extracurricular-courses-workshops" class="level3">
-<h3 class="anchored" data-anchor-id="extracurricular-courses-workshops">Extracurricular Courses &amp; Workshops</h3>
-<ul>
-<li>ESRI MOOC “<a href="https://www.esri.com/training/catalog/5d76dcf7e9ccda09bef61294/spatial-data-science%3A-the-new-frontier-in-analytics/?adumkts=training&amp;aduc=landing_page&amp;adum=organic_visits&amp;utm_Source=landing_page&amp;aduca=mi_moocs&amp;aduco=trbanner&amp;adut=sds-mooc&amp;adulb=multiple&amp;adusn=multiple&amp;adupt=awareness&amp;sf_id=701f2000000iFSXAA2">Spatial Data Science: The New Frontier in Analytics</a>”</li>
-<li>Carpentries “Relational Databases and SQL” two day course (<a href="https://ucsbcarpentry.github.io/2022-02-04-ucsb-sql-online/">materials</a>)</li>
-</ul>
-</section>
-<section id="things-ive-helped-with" class="level3">
-<h3 class="anchored" data-anchor-id="things-ive-helped-with">Things I’ve Helped With:</h3>
-<ul>
-<li>Helped Sam with her “Troubleshooting Quarto” workshop</li>
-</ul>
+<hr>
+<p>This map was originally created as a visual aid for the initial launching of the <a href="https://wildfireindex.org/">Western Wildfire Resilience Index</a> website. Although my official job title at <a href="https://www.nceas.ucsb.edu/">NCEAS</a> is project manager, I was recently able to flex my spatial analysis and mapping skills to reduce the workload of the data analysts on my team. As PM, it’s my responsibility to make sure the project is moving along efficiently, often times with multiple things at once. To ensure the data analysts on my team were able to meet other deadlines, I decided to take on the responsibility of creating this visual for our project’s website.</p>
+<p>The project specifically defined “the West” of Canada to include British Columbia and the Yukon Territory provinces. For the United States, “West” was defined as including the following states: Alaska, Arizona, California, Colorado, Idaho, Montana, Nevada, New Mexico, Oregon, Utah, and Washington.</p>
+<p><img src="western-north-america-population-density-map.png" class="img-fluid" width="3000"></p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
