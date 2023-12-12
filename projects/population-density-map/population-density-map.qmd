@@ -4,8 +4,8 @@ title: "Mapping Population Density Across Western North America."
 description: |
   Using open census data from the United States and Canadian governments, I created a population density map looking at number of people per square-kilometer in each county. For Canada, I used county equivalents ("census districts") for the province of British Columbia.  
 
-date: last-modified
-date-format: MMMM D, YYYY
+date: 12/11/2023
+date-format: long
 
 image: western-north-america-population-density-map.png
 

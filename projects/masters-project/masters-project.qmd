@@ -4,8 +4,8 @@ title: "Managing the Impacts of Environmental Education in Protected Areas"
 description: | 
   A semi-brief overview of my Master's Project detailing the impacts of environmental education in protected areas. Specifically, my project focused on the Dangermond Preserve in Central California, acquired by The Nature Conservancy in late 2017.
 
-date: last-modified
-date-format: MMMM D, YYYY
+date: 10/18/2022
+date-format: long
 
 image: dangermond-oak.jpeg
 

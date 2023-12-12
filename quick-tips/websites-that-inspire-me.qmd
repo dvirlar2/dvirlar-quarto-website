@@ -8,8 +8,8 @@ author:
 description: |
   A collection of websites that have provided endless inspiration for how to design my own site.
   
-date: last-modified
-date-format: MMMM D, YYYY
+date: 01/05/2023
+date-format: long
 
 image: ../images/note-taking-hedgehog.png
 image-alt: "A cute illustrated hedgehog showing multiple steps of writing, editing, and iterating on a notebook."

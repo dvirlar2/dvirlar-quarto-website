@@ -4,8 +4,8 @@ title: "Graphing Colorado's Predicted Snowfall, 2020-2080."
 description: |
   Using open climate data from the University of Colorado Boulder, I created a time series plot of predicted snowfall during ski seasons between 2020-2080. The graphs illustrate predicted snowfall for three separate climate ensembles.
 
-date: last-modified
-date-format: MMMM D, YYYY
+date: 12/05/2022
+date-format: long
 
 image: spongebob-snowfall.gif
 

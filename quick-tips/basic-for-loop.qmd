@@ -8,8 +8,8 @@ author:
 description: |
   Learn how to write a `for` loop when you're dealing with numeric values.
 
-date: last-modified
-date-format: MMMM D, YYYY
+date: 09/07/2022
+date-format: long
 
 image: ../images/basic-for-loop.png
 
