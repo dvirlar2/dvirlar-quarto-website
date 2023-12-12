@@ -12,7 +12,7 @@ image: spongebob-snowfall.gif
 categories: [time series, R]
 
 execute:
-  freeze: auto  # re-render only when source changes
+  freeze: true
 ---
 
 ------------------------------------------------------------------------
