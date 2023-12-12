@@ -13,7 +13,6 @@ categories: [spatial analysis, R]
 
 execute:
   freeze: auto  # re-render only when source changes
-# These are just some words in a header font
 ---
 
 ------------------------------------------------------------------------
