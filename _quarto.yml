@@ -28,6 +28,9 @@ website:
       - icon: twitter
         href: https://twitter.com/dvirlar2
         
+  page-footer:
+    left: Copyright, 2022
+    right: <i> Site built with [Quarto](https://quarto.org) <i>
   # page-footer:
   #   left: "<i>Copyright 2022, Daphne Virlar-Knight</i>"
   #   right: 
